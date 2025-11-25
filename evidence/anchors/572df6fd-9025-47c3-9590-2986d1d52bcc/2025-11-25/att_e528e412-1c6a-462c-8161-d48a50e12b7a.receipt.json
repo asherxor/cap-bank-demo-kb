@@ -1,0 +1,19 @@
+{
+  "attestation_id": "e528e412-1c6a-462c-8161-d48a50e12b7a",
+  "subject_id": "158fdce4-56fb-4dd4-9b83-188eaa250b35",
+  "status": "verified",
+  "normalized_hashes": [
+    "98a8d903e38c89a78ac2c8a975cd0967492ef7d4daf8f58c3469b7f51fdbc5a5"
+  ],
+  "record_id": "61089466-eef1-4a3a-8f7a-0f22fedc302b",
+  "block_id": "2ffdbc14-26d1-470b-9d37-d9cafb1f8d8d",
+  "block_index": 2,
+  "root": "838b6e7790f7eb3eccbccd0785750e98bfb9b8fc91cde9d7b3e2a2e8331ff3e0",
+  "proof": {
+    "leaf": "838b6e7790f7eb3eccbccd0785750e98bfb9b8fc91cde9d7b3e2a2e8331ff3e0",
+    "path": [],
+    "root": "838b6e7790f7eb3eccbccd0785750e98bfb9b8fc91cde9d7b3e2a2e8331ff3e0"
+  },
+  "idempotency_key": "615e85cf-0833-44e1-8afa-f46cc0ffbbc2",
+  "anchored_at": "2025-11-25T19:32:23.656374+00:00"
+}
