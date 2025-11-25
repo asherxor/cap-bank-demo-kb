@@ -1,0 +1,49 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "Demo Banking App SBOM",
+  "documentNamespace": "https://cap-platform.example/sbom/demo-banking-app/2025-11-25",
+  "creationInfo": {
+    "created": "2025-11-25T18:00:00Z",
+    "creators": [
+      "Tool: CAP-SBOM-Generator-1.0"
+    ]
+  },
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-BankingCore",
+      "name": "banking-core",
+      "versionInfo": "3.2.1",
+      "supplier": "Organization: Demo Bank Inc.",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MIT",
+      "copyrightText": "Copyright 2025 Demo Bank Inc."
+    },
+    {
+      "SPDXID": "SPDXRef-Package-OpenSSL",
+      "name": "openssl",
+      "versionInfo": "3.0.8",
+      "supplier": "Organization: OpenSSL Software Foundation",
+      "downloadLocation": "https://www.openssl.org/source/openssl-3.0.8.tar.gz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright The OpenSSL Project"
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Package-BankingCore"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-BankingCore",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-OpenSSL"
+    }
+  ]
+}
