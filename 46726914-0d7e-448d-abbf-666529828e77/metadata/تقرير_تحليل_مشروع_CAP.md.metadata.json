@@ -1,0 +1,5 @@
+{
+  "artifactType": "ARTIFACT_TYPE_WALKTHROUGH",
+  "summary": "تقرير تحليل مفصل وشامل لمشروع CAP Platform (Civic Attestation Platform). التقرير يغطي 12 قسماً رئيسياً: نظرة عامة، البنية المعمارية الثلاثية (Gateway/Core/Database)، المكونات الرئيسية والروترات، نموذج قاعدة البيانات التفصيلي مع 20+ جدول، واجهات APIs مع أمثلة، الميزات الرئيسية (Multi-tenancy, Attestation Lifecycle, Anchoring Providers, SBOM/DBOM, Knowledge Management, AI Agents, Frameworks)، التقنيات المستخدمة (FastAPI, PostgreSQL, TypeScript), الأمن والمصادقة، التوثيق والامتثال، بيئة التطوير والنشر، تقييم شامل لنقاط القوة والضعف، و15 توصية مقسمة حسب الأولوية. التقرير يتضمن رسوم بيانية Mermaid، أمثلة كود، وتفاصيل تقنية عميقة.",
+  "updatedAt": "2025-11-24T20:43:58.368971700Z"
+}
