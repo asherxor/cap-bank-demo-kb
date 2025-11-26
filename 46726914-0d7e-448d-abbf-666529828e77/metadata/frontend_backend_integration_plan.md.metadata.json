@@ -1,0 +1,5 @@
+{
+  "artifactType": "ARTIFACT_TYPE_IMPLEMENTATION_PLAN",
+  "summary": "Comprehensive plan for integrating CAP Frontend (React) with Backend (FastAPI Core + Node.js Gateway), including API mapping, authentication flow, state management, and step-by-step implementation instructions.",
+  "updatedAt": "2025-11-25T19:47:56.618525900Z"
+}
