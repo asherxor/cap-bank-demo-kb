@@ -1,0 +1,1 @@
+CAP manual sync test from CLI.
